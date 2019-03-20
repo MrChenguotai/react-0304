@@ -3,14 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "scripts":{
-      "dev":"node_modules/.bin/webpack-dev-server",
-      "build":"node_modules/.bin/webpack -p"
+  "scripts": {
+    "dev": "node_modules/.bin/webpack-dev-server",
+    "build": "node_modules/.bin/webpack -p"
   },
   "dependencies": {
-    "font-awesome": "^4.7.0",
+    "rc-pagination": "1.15.1",
     "react": "16.2.0",
     "react-dom": "16.2.0",
+    "react-router-dom": "4.2.2",
     "webpack": "3.10.0"
   },
   "devDependencies": {
