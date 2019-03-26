@@ -8,7 +8,6 @@ class MMtil{
                 dataType:param.dataType||'json',
                 data:param.data||null,
                 success:res=>{
-                    console.log(res);
                     if(res.status===0){
                         typeof resolve==='function'&&resolve(res.data,res.msg);
                     }
