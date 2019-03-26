@@ -2,7 +2,6 @@ class MMtil{
     //请求
     request(param){
         return new Promise((resolve,reject)=>{
-            console.log(1);
             $.ajax({
                 type:param.type||"get",
                 url:param.url||'',
