@@ -105,6 +105,7 @@ class CategorySelector extends React.Component{
             })   
         },errMsg=>{
             _mm.errorTips(errMsg);
+            console.log(1);
         })
     }
     render(){
