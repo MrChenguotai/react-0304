@@ -5,8 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "node_modules/.bin/webpack-dev-server",
-    "dist": "WEBPACK_ENV=online node_modules/.bin/webpack -p",
-    "dist_win": "set WEBPACK_ENV=online&& node_modules/.bin/webpack -p"
+    "build": "set WEBPACK_ENV=online&& node_modules/.bin/webpack -p"
   },
   "dependencies": {
     "prop-types": "15.6.0",
